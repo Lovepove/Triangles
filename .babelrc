@@ -1,0 +1,9 @@
+{ 
+    "presets": ["react", 
+        "env"
+    ],
+    "ignore": [
+        "node_modules/**",
+        "*.json"
+    ]
+}
