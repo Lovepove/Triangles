@@ -29,7 +29,11 @@ module.exports = {
           from: 'src/css/main.css',
           to: 'main.css',
           toType: 'file'
-        },
+        }, {
+            from: 'src/html/index.html',
+            to: 'index.html',
+            toType: 'file'
+        }
       ]),
     new WriteFilePlugin()    
   ],
